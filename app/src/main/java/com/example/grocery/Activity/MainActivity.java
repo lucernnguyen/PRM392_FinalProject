@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity {
         binding.btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                float destinationLatitude=20.9933217f;
-                float destinationLongitude=105.8273367f;
+                float destinationLatitude=10.8469938f;
+                float destinationLongitude=106.6360576f;
                 String uri = String.format(Locale.ENGLISH, "http://maps.google.com/maps?daddr=%f,%f (%s)", destinationLatitude, destinationLongitude, "Tap hoa Vo Nguyen");
                 Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
                 intent1.setPackage("com.google.android.apps.maps");
